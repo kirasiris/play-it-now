@@ -1,21 +1,19 @@
 {
   "expo": {
-    "name": "play-it-now",
-    "slug": "play-it-now",
+    "name": "Play It Now",
+    "slug": "play-it-now-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "play-it-now",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": ""
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +34,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    },
+    "owner": "kirasiris"
   }
 }
